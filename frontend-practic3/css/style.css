@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../assets/images/bg-desktop.svg");
+    background-color:hsl(257, 40%, 49%);
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    height: 600px;
+}
+
+.first__column{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 0;
+}
+
+.second__column{
+    position: absolute;
+    width: 42%;
+    height: 100%;
+    top: 130px;
+    right: 0;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+
+.social__icons{
+    position: absolute;
+    right: 80px;
+    bottom: 120px;
+}
+
+.icon-uwu{
+    width: 40px;
+    height: 40px;
+    border: 1.99px  solid #fff;
+    border-radius: 50%;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 11px;
+}
+
+.title-1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.text-build{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button_register{
+    border:0;
+    box-shadow: 2px 2px 8px #333;
+    padding: 16px 12px;
+    border-radius: 100px;
+    width: 190px;
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+    font-size: 16px;
+}
